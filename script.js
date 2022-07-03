@@ -5,6 +5,8 @@ function randomColor(){
     return color;
 }
 function setColor(){
-    document.body.style.backgroundColor=`rgb(${randomColor()},${randomColor()},${randomColor()})`
+    let colorName=`rgb(${randomColor()},${randomColor()},${randomColor()})`;
+    document.body.style.backgroundColor = colorName;
+    colorBtn.innerHTML = `Switch Color: ${colorName}`;
 }
 colorBtn.addEventListener("click", setColor);

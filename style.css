@@ -49,6 +49,12 @@ a{
     font-weight: bold;
 
 }
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color:rgb(221, 170, 30);
+}
 /* Button settings */
 .button{
     padding: 21px;
@@ -67,5 +73,5 @@ button:hover{
     cursor: pointer;
 }
 button:active{
-    background-color: rgb(204, 204, 204);
+    color:rgb(221, 170, 30);
 }
