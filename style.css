@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    font-family: "Helvetica", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 13px 0;
+    font-size: 21px;
+    
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid #000;
+    
+}
+.container h1{
+    color:rgb(65, 175, 219);
+   text-shadow: 1px 1px #000;
+}
+.main{
+   
+    padding: 0 144px;
+    display: flex;
+    flex:1;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main ul{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:rgb(209, 76, 76);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-weight: bold;
+
+}
