@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
 }
+/* Main container */
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 144px;
 
-
+}
+/* Header settings */
 .container{
     font-family: "Helvetica", sans-serif;
     display: flex;
@@ -42,4 +48,24 @@ a{
     text-shadow: 1px 1px rgb(0, 0, 0);
     font-weight: bold;
 
+}
+/* Button settings */
+.button{
+    padding: 21px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.button button{
+    font-size: 34px;
+    background: #fff;
+    padding: 13px;
+    border-radius: 8px;
+}
+button:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(204, 204, 204);
 }
