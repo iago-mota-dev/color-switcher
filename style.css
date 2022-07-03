@@ -75,3 +75,8 @@ button:hover{
 button:active{
     color:rgb(221, 170, 30);
 }
+/* Active link from header */
+.activePage{
+    color:rgb(221, 170, 30);
+    
+}
